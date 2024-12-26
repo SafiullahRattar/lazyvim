@@ -26,3 +26,8 @@ end
 vim.keymap.set("n", "<leader>fd", function()
   find_and_cd_directory_from_root()
 end, { desc = "FZF: find directory (from root) and cd", noremap = true })
+
+vim.keymap.set("n", "<leader>m", "a{}<Esc>i<CR><Esc>O", { desc = "Curly brace around" })
+
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
