@@ -1,12 +1,18 @@
-return {
-  { "ellisonleao/gruvbox.nvim" },
-  -- { "rose-pine/neovim", name = "rose-pine" },
+-- return {
+--   "rjshkhr/shadow.nvim",
+--   priority = 1000,
+--   config = function()
+--     vim.opt.termguicolors = true
+--     vim.cmd.colorscheme("shadow")
+--   end
+-- }
 
-  -- Configure LazyVim to load gruvbox
+return {
+  { "ficcdaf/ashen.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "ashen",
     },
   },
 }
