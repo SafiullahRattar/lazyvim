@@ -7,12 +7,16 @@
 --   end
 -- }
 
-return {
-  { "ficcdaf/ashen.nvim" },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "ashen",
-    },
-  },
-}
+-- return {
+--   { "ficcdaf/ashen.nvim" },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "ashen",
+--     },
+--   },
+-- }
+
+if true then
+  return {}
+end
