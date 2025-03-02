@@ -13,7 +13,7 @@ return {
           name = "copilotclaude",
           schema = {
             model = {
-              default = "claude-3.5-sonnet",
+              default = "claude-3.7-sonnet",
             },
           },
         })
