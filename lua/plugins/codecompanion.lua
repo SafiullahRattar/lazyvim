@@ -22,6 +22,15 @@ return {
     opts.strategies = {
       chat = {
         adapter = "copilotclaude",
+        tools = {
+          ["mcp"] = {
+            callback = require("mcphub.extensions.codecompanion"),
+            description = "Call tools and resources from the MCP Servers",
+            opts = {
+              requires_approval = true,
+            },
+          },
+        },
       },
       inline = {
         adapter = "copilot",
