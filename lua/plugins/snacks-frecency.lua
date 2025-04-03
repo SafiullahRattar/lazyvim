@@ -5,7 +5,6 @@ return {
       matcher = {
         frecency = true,
         cwd_bonus = true,
-        history_bonus = true,
       },
     },
   },
